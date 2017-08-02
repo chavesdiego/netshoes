@@ -1,0 +1,28 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 14px;
+}
+
+.shelf {
+  display: -webkit-flex;
+  display: -ms-flex;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: stretch;
+  padding: 3vw;
+  max-width: 730px;
+  margin: auto;
+}
+
+.shelf .product {
+  flex-grow: 0;
+  flex-basis: 33.33%;
+  text-align: center;
+  margin-bottom: 40px;
+}

@@ -1,0 +1,31 @@
+.product { cursor: pointer; }
+
+.product__title {
+  font-weight: 300;
+  font-size: 1em;
+}
+
+.product__price { position: relative; }
+
+.product__price:before {
+  content: "";
+  display: block;
+  width: 15px;
+  height: 2px;
+  margin: 10px auto;
+  background-color: #dfbd00;
+}
+
+.product__price--currency, .product__price--value { display: inline-block; }
+
+.product__price--currency { margin-right: 5px; }
+
+.product__price--value {
+  font-weight: 600;
+  font-size: 1.75em;
+}
+
+.product__price--installments {
+  display: block;
+  color: #999999;
+}
